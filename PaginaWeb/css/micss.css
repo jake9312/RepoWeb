@@ -26,6 +26,16 @@
 			color: white;
 			font-size: 25px;
 		}
+		
+		.article{
+			padding: 10px;
+			border-width: 10px;
+		}
+
+		table{
+			padding: 10px; 
+			content-size: 100px; 
+		}
 
 		footer{
 			text-align: center;
