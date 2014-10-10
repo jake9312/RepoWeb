@@ -1,0 +1,46 @@
+
+		#header1{
+			background-image: url("../img/header.jpg");
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			width: 100%;
+			height: 200px;
+		}
+
+		#tituloHeader{
+			color:white;
+			text-align: left;
+			text-transform: uppercase;
+			font-size: 100px;
+		}
+
+		nav{
+			background-color: black;
+			
+		}
+
+		.nav1{
+			list-style: none;	
+			display: inline;
+			padding-right: 50px;
+			color: white;
+			font-size: 25px;
+		}
+
+		footer{
+			text-align: center;
+			color: white;
+		}
+
+		aside{
+			float:right;
+			background-color: black;
+			color:white; 
+			height: 900px;
+		}
+
+		#seccionPrincipal{
+			float:left;
+			background-color: white;
+			margin: auto -100px auto auto;
+		}
