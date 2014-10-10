@@ -47,7 +47,9 @@
 			float:right;
 			background-color: black;
 			color:white; 
-			height: 900px;
+			height: 1050px;
+			border:dotted;
+			border-color: white;
 		}
 
 		#seccionPrincipal{
