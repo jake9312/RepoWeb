@@ -28,7 +28,8 @@
 		}
 		
 		section{
-			padding: 15px;
+			padding: 13px;
+			border: dotted;
 		}
 
 		table{
