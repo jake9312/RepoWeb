@@ -27,14 +27,14 @@
 			font-size: 25px;
 		}
 		
-		.article{
-			padding: 10px;
-			border-width: 10px;
+		section{
+			padding: 15px;
 		}
 
 		table{
 			padding: 10px; 
 			content-size: 100px; 
+			border: solid;
 		}
 
 		footer{
