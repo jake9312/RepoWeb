@@ -1,0 +1,17 @@
+.btnGrande{
+	width: 180px;
+	height: 60px;
+}
+
+.textGrande{
+	font-size: 70px;
+}
+
+.btnMasGrande{
+	width: 210px;
+	height: 80px;
+}
+
+.rojo{
+	color:red;
+}
