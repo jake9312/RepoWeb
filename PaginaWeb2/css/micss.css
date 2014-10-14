@@ -1,5 +1,5 @@
 .btnGrande{
-	width: 180px;
+	width: 400px;
 	height: 60px;
 }
 
@@ -14,4 +14,12 @@
 
 .rojo{
 	color:red;
+}
+
+.headermio{
+	background-color: #81F7F3;
+}
+
+.body{
+	background-color: #F2F2F2;	
 }
