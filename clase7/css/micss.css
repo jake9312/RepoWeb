@@ -1,0 +1,25 @@
+.btnGrande{
+	width: 400px;
+	height: 60px;
+}
+
+.textGrande{
+	font-size: 70px;
+}
+
+.btnMasGrande{
+	width: 210px;
+	height: 80px;
+}
+
+.rojo{
+	color:red;
+}
+
+.headermio{
+	background-color: #81F7F3;
+}
+
+.body{
+	background-color: #F2F2F2;	
+}
