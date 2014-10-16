@@ -4,7 +4,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/micss.css">
 	<meta charset="UTF-8">
-	<title>Pagina tarea</title>
+	<title>Registro de usuario</title>
 </head>
 <body>
 
@@ -33,9 +33,9 @@
 		<div class="col-md-1 col-xs-1"></div>
 		<div class="col-md-11 col-xs-11">
 			<div class="btn-group btn-group-lg">
-				<button type="button" class="btn btn-default btnGrande"><a href="index.html">Home</a></button>
-				<button type="button" class="btn btn-default btnGrande"><a href="articulos.html">Artículos</a></button>
-				<button type="button" class="btn btn-default btnGrande"><a href="contacto.html">Contacto</a></button>
+				<a href="index.html" class="btn btn-default btnGrande">Home</a>
+				<a href="articulos.html" class="btn btn-default btnGrande">Artículos</a>
+				<a href="contacto.html" class="btn btn-default btnGrande">Contacto</a>
 			</div>
 		</div>
 	</div>
@@ -50,18 +50,18 @@
 		</div>
 		<div class="col-md-5 col-xs-5">
 			<legend>Registrate</legend>
-			<form action="#">
-				<input type="text" class="form-control" placeholder="Usuario">
+			<form action="Controllers/registro.php" method="post">
+				<input type="text" class="form-control" placeholder="Usuario" name="usuario">
 				<br><br>
-				<input type="text" class="form-control" placeholder="e-mail">
+				<input type="text" class="form-control" placeholder="e-mail" name="email">
 				<br><br>
-				<input type="text" class="form-control" placeholder="País">
+				<input type="text" class="form-control" placeholder="País" name="pais">
 				<br><br>
-				<input type="text" class="form-control" placeholder="Ciudad">
+				<input type="text" class="form-control" placeholder="Ciudad" name="ciudad">
 				<br><br>
-				<input type="password" class="form-control" placeholder="Password">
+				<input type="password" class="form-control" placeholder="Password" name="password">
 				<br>
-				<input type="submit" class="btn btn-success">
+				<input type="submit" class="btn btn-success" value="Registrar">
 			</form>
 		</div>
 	</div>
