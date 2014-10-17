@@ -3,7 +3,7 @@
 
 	$id = $_GET['id'];
 
-	$borrar_query = "DELETE FROM users WHERE id = ".$id;
+	$borrar_query = "DELETE FROM usuarios WHERE id_usuario = ".$id;
 
 	$conexion->query($borrar_query);
 
